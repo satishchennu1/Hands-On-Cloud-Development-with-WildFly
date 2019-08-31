@@ -3,7 +3,7 @@ swarm:
     data-sources:
       CatalogDS:
        driver-name: postgresql
-       connection-url: jdbc:postgresql://catalogdb.petstore.svc/catalogdb
+       connection-url: jdbc:postgresql://172.30.28.21/catalogdb
        user-name: catalog
        password: catalog
     jdbc-drivers:
